@@ -34,8 +34,8 @@ jobs:
         uses: blackduck-inc/black-duck-security-scan@805cbd09e806b01907bbea0f990723c2bb85abe9
         with:
           ### ---------- POLARIS SCANNING: REQUIRED FIELDS ----------
-          polaris_server_url: https://poc.polaris.blackduck.com/
-          polaris_access_token: I6lnkpoj8l69l2bp3m3g6ukj1jujhlkv63jkp550q5295805m5vudb9o7qlroia75rjm1tanjos2s
+          polaris_server_url: "https://poc.polaris.blackduck.com/"
+          polaris_access_token: "I6lnkpoj8l69l2bp3m3g6ukj1jujhlkv63jkp550q5295805m5vudb9o7qlroia75rjm1tanjos2s"
           polaris_assessment_types: "SCA,SAST"
           polaris_application_name: "bje-NodeGoat"
           polaris_project_name: "NodeGoat"
