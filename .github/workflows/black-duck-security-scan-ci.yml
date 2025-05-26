@@ -36,7 +36,7 @@ jobs:
           ### ---------- POLARIS SCANNING: REQUIRED FIELDS ----------
           polaris_server_url: "https://poc.polaris.blackduck.com/"
           polaris_access_token: "i6lnkpoj8l69l2bp3m3g6ukj1g27gu8dj2pknbdrbnjffbej2a9pjai5ac97b0v21e5gdqv069ioc"
-          polaris_assessment_types: "SCA,SAST"
+          polaris_assessment_types: "SAST"
           polaris_application_name: "bje-NodeGoat"
           polaris_project_name: "NodeGoat"
           polaris_reports_sarif_create: 'true'
