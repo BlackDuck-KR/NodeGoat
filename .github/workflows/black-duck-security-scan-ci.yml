@@ -37,8 +37,8 @@ jobs:
           polaris_server_url: https://poc.polaris.blackduck.com/
           polaris_access_token: I6lnkpoj8l69l2bp3m3g6ukj1jujhlkv63jkp550q5295805m5vudb9o7qlroia75rjm1tanjos2s
           polaris_assessment_types: "SCA,SAST"
-          polaris_application_name: bje-NodeGoat
-          polaris_project_name: NodeGoat
+          polaris_application_name: "bje-NodeGoat"
+          polaris_project_name: "NodeGoat"
           polaris_reports_sarif_create: 'true'
           polaris_upload_sarif_report: 'true'
           polaris_prComment_enabled: 'true'
