@@ -31,7 +31,7 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v4
       - name: Black Duck SCA scan
-        uses: blackduck-inc/black-duck-security-scan@1.0.0
+        uses: blackduck-inc/black-duck-security-scan@805cbd09e806b01907bbea0f990723c2bb85abe9
         with:
           ### ---------- POLARIS SCANNING: REQUIRED FIELDS ----------
           polaris_server_url: https://poc.polaris.blackduck.com/
